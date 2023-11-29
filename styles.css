@@ -1,0 +1,56 @@
+.nav_box{
+    text-align: left;
+    background-color: #FFE15D;
+    position: sticky;
+    top: 5px;
+}
+
+.nav_bar{
+    display: flex;
+    word-spacing: 5%;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+}
+  /*contains menu items in a flex box*/
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    max-width: 90%;
+    margin: 0 0 5% 5%;
+    background-color: #FFE15D;
+    align-items: center;
+}
+
+  .menu_item{
+    flex: 15% 1;
+    width: 15%;
+    height: 5%;
+    margin: 2.5%;
+}
+
+.pic{
+    height: 80%;
+    width: 80%;
+
+}
+
+.newsLetter{
+    text-align: left;
+}
+
+h1{/*resteraunt name*/
+    color: #F49D1A;
+    padding: 0 0 1.5% 0;
+}
+
+h2{
+    color: #DC3535;
+}
+
+ul{
+    text-align: left;
+}
